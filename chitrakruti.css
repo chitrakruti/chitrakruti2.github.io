@@ -77,3 +77,42 @@ box-sizing: border-box;
 border: 2px solid red;
 border-radius: 4px;
 }
+
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+position: sticky;
+top: 110;
+width: 100%;
+}
+
+
+li{
+float: left;
+text-align: center;
+border-bottom: 1px solid #555;
+font-size:25px;
+}
+
+
+li a{
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 16px 120px;
+  text-decoration: none;
+}
+
+li a:hover {
+background-color:#c1c1a4;	
+color: red;
+cursor: pointer;
+}
+
+
+
